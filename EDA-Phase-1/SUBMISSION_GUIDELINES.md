@@ -2,7 +2,7 @@
 
 ## What You Need to Submit
 
-A single **EDA report** (Jupyter Notebook or PDF) documenting your exploration and analysis of the dataset.
+A single **EDA report** (Jupyter Notebook(in .md format) or PDF) documenting your exploration and analysis of the dataset.
 
 **You do NOT need to submit predictions in this phase.** Phase 1 is purely about demonstrating your understanding of the data. Selected candidates will advance to Phase 2, where predictions on `test_accounts.csv` will be required.
 
@@ -84,10 +84,11 @@ Primary metric: **AUC-ROC** on `is_mule`. Time window accuracy is a separate bon
 
 ## Submission Instructions
 
-- Submit your report as a **Jupyter Notebook (`.ipynb`)** or **PDF**
+- Submit your report as a **Jupyter Notebook (in .md (markdown) format)** or **PDF**
 - If using a notebook, ensure all cells are executed and outputs are visible
-- Name your file: `<team_name>_eda_report.ipynb` or `<team_name>_eda_report.pdf`
+- Name your file: `<team_name>_eda_report.md` or `<team_name>_eda_report.pdf`
 - Submit via the form shared on the event page before the deadline
+- For link - https://forms.gle/wqAeindJJYp1hXct5
 
 ---
 
