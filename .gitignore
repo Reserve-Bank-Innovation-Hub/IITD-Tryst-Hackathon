@@ -1,0 +1,57 @@
+# Git ignore file for IITD-Tryst-Hackathon
+
+# CSV Data Files
+# Do NOT commit data files - they contain sensitive banking information
+*.csv
+data/*.csv
+EDA-Phase-1/*.csv
+data/**/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+
+# Virtual Environment
+venv/
+.venv
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Allow README.md in data directories
+!data/README.md
+!EDA-Phase-1/README.md
